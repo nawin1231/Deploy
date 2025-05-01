@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Next.css */
+
+/* กำหนดให้โครงสร้างของหน้าเต็มหน้าจอ */
+.next-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* หัวข้อ (heading) */
+.next-heading {
+  font-size: 3rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* ข้อความ path ที่แสดงที่อยู่ */
+.next-path {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ปุ่ม (button) */
+.next-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อ hover */
+.next-button:hover {
+  background-color: #45a049;
+}
+
+/* Previous.css */
+
+/* กำหนดให้โครงสร้างของหน้าเต็มหน้าจอ */
+.previous-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* หัวข้อ (heading) */
+.previous-heading {
+  font-size: 3rem;
+  color: #2196F3;
+  margin-bottom: 20px;
+}
+
+/* ข้อความ path ที่แสดงที่อยู่ */
+.previous-path {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ปุ่ม (button) */
+.previous-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีปุ่มเมื่อ hover */
+.previous-button:hover {
+  background-color: #1976D2;
+}
+
